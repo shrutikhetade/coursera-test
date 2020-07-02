@@ -58,7 +58,7 @@ body{
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     padding: 15px;
-      
+
   }
   .col-md-1 {
     width: 8.33%;
@@ -94,6 +94,7 @@ body{
     width: 91.66%;
   }
   .col-md-12 {
+    clear: both;
     width: 100%;
   }
 }
@@ -109,7 +110,8 @@ body{
 
 
 h1 {
-  margin: 15px;
+  margin-top: 20px;
+  margin: 30px;
   text-align: center;
 
    
@@ -129,7 +131,6 @@ h1 {
 
 p {
   width: 100%;
-  height: 140px;
   padding: 15px;
   color: black;
   text-align: justify;
@@ -143,8 +144,8 @@ p {
 {
   background-color: #217843;
   color: white;
-  width: 100px;
-  height: 35px;
+  margin: auto;
+  width: 90px;
   font-size: 1.25em;
   float:right;
 
@@ -153,8 +154,8 @@ p {
 {
   background-color: #734ad2;
   color: white;
-  width: 100px;
-  height: 35px;
+  width: 90px;
+  margin: auto;
   font-size: 1.25em;
   float:right;
 
@@ -163,15 +164,14 @@ p {
 {
   background-color: #cf2912;
   color: white;
-  width: 110px;
-  height: 35px;
+  width: 90px;
+  margin: auto;
   font-size: 1.25em;
   float:right;
 }
 
 .style{
   width: 100%;
-  height: 200px;
   margin: auto;
   background-color: #dfb1c8;
   border: 1px solid black;
@@ -181,4 +181,5 @@ p {
 
 .row{
   margin: 15px;
+  
 }
